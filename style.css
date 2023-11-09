@@ -1,0 +1,38 @@
+:root{
+    --cor-principal: rgb(69, 163, 251); 
+}
+body{
+    background-color: rgb(25, 46, 110)
+}
+.profile-img img{
+    width: 200px;
+    border-radius: 60%;
+    border: 6px solid var(--cor-principal)
+}
+.container {
+    text-align: center;
+    
+}
+.profile-info{
+    color: aliceblue;
+    width: 400px;
+    margin: 0 auto;
+}
+/* esitilização */
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    padding: 5px 0;
+}
+/* icones */
+ion-icon {
+    color: aliceblue;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;}
+.profile-info{
+    font-family: 'Comfortaa', sans-serif;}
